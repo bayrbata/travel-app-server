@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 app.use(express.json({ limit: '10mb' })); // increase limit for base64 images
-
+awd
 // PostgreSQL connection
 const con = new Client({
   host: process.env.PG_HOST || 'localhost',
